@@ -1,0 +1,17 @@
+{
+  "name": "nexus-stripe-webhook",
+  "version": "1.0.0",
+  "description": "Webhook para enviar email de activación de Nexus",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "express": "^4.18.2",
+    "stripe": "^13.9.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
